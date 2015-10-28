@@ -1,0 +1,9 @@
+name: "David Howland"
+description: ""
+
+url: "[YOUR DOMAIN]"
+
+paginate: 10
+
+markdown: rdiscount
+permalink: pretty

@@ -6,4 +6,4 @@ url: ""
 paginate: 10
 
 markdown: rdiscount
-permalink: pretty
+#permalink: pretty

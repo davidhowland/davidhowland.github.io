@@ -1,6 +1,6 @@
 ---
 title: Manhattan Bridge Sunset
-layout: default
+layout: post
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse elemen\

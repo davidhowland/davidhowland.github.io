@@ -1,27 +1,36 @@
-<div class="grid">
-  <div class="col-2-8">
-    <div class="content">
-      <a href="{{ site.url }}">{{ site.name }}</a>
+<html>
+  <head>
+    <title>{{ site.name }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" >
+    <link rel="stylesheet" type="text/css" href="/css/simplegrid.css" />
+    <link rel="stylesheet" type="text/css" href="/css/style.css" />
+  </head>
+
+  <body>
+    <div class="grid">
+      <div class="col-2-8">
+        <div class="content">
+          <a href="{{ site.url }}">{{ site.name }}</a>
+        </div>
+      </div>
+      <div class="col-1-8 push-right">
+        <div class="nav">
+          <a href="{{ site.url }}">Home</a>
+        </div>
+      </div>
+      <div class="col-1-8 push-right">
+        <div class="nav">
+          <a href="{{ site.url }}">Portfolio</a>
+        </div>
+      </div>
+      <div class="col-1-8 push-right">
+        <div class="nav">
+          <a href="{{ site.url }}">Blog</a>
+        </div>
+      </div>
+      <div class="col-1-8 push-right">
+        <div class="nav">
+          <a href="{{ site.url }}">About & Contact</a>
+        </div>
+      </div>
     </div>
-  </div>
-  <div class="col-1-8 push-right">
-    <div class="nav">
-      <a href="{{ site.url }}">Home</a>
-    </div>
-  </div>
-  <div class="col-1-8 push-right">
-    <div class="nav">
-      <a href="{{ site.url }}">Portfolio</a>
-    </div>
-  </div>
-  <div class="col-1-8 push-right">
-    <div class="nav">
-      <a href="{{ site.url }}">Blog</a>
-    </div>
-  </div>
-  <div class="col-1-8 push-right">
-    <div class="nav">
-      <a href="{{ site.url }}">About & Contact</a>
-    </div>
-  </div>
-</div>

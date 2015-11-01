@@ -5,3 +5,7 @@ float: right;
 .footer-content {
 text-align: center;
 }
+
+.post-content img {
+  max-width: 100%;
+}

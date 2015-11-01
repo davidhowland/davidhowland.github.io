@@ -1,8 +1,6 @@
 name: "Frigid Light Photography"
 description: "Adventure Photography by David Howland"
 
-url: davidhowland.github.io
-
 paginate: 10
 
 markdown: rdiscount

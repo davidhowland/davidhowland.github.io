@@ -2,6 +2,7 @@
   <div class="content">
       <h3>Location</h3>
         <iframe src="{{ page.map-url}}" width="360" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+      <h3>Recent Posts</h3>
       <ul>
         {% for post in site.posts limit: 5 $}
           <li><a href="{{ post.url }}">{{ post.title }}</a></li>

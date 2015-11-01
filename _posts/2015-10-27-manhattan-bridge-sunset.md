@@ -1,6 +1,7 @@
 ---
 title: Sunset from the Manhattan Bridge
 layout: post
+map-url: https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d11808.254975110189!2d-73.9867630604104!3d40.70575209474232!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1zNDDCsDQyJzI1LjYiTiA3M8KwNTknMjcuOCJX!5e0!3m2!1sen!2sus!4v1446343507154
 ---
 
 Every fall I head up to New York to meet some [NSOP](http://newschoolofphotography.com/content.php?r=2317-Photo-Expo-2015-wrap-up! "New School of Photography") friends for the PhotoPlus Expo. Most of them drive down from Rhode Island, but we still always try to cram in a sunrise or sunset shoot during the day.

@@ -13,3 +13,7 @@ text-align: center;
 .post-content iframe {
   max-width: 100%;
 }
+
+.sidebar-content ul {
+  list-style-type: none;
+}

@@ -22,8 +22,8 @@ text-align: center;
   text-transform: uppercase;
 }
 
-.nav {
-  margin-top: none;
+.nav h1 {
+  margin-top: 0px;
 }
 
 img {

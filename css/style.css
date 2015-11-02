@@ -7,11 +7,11 @@ text-align: center;
 }
 
 .post-content p {
-  font-family: Baskerville;
+  font-family: 'Gentium Basic', serif;
 }
 
 .post-content h1 {
-  font-family: Helvetica;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .post-content img {

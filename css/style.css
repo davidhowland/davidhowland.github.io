@@ -6,11 +6,11 @@ float: right;
 text-align: center;
 }
 
-.post-content p {
+.post-content p, .sidebar-content a {
   font-family: 'Gentium Basic', serif;
 }
 
-.post-content h1, .nav {
+.post-content h1, .nav, .sidebar-content h3 {
   font-family: 'Open Sans', sans-serif;
   font-weight: 800;
   text-transform: uppercase;

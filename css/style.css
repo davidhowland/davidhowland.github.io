@@ -6,6 +6,14 @@ float: right;
 text-align: center;
 }
 
+.post-content p {
+  font-family: Garamond;
+}
+
+.post-content h1 {
+  font-family: Helvetica;
+}
+
 .post-content img {
   max-width: 100%;
 }

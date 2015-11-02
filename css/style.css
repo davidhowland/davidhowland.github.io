@@ -12,12 +12,13 @@ text-align: center;
 
 .post-content h2, .sidebar-content h3 {
   font-family: 'Merriweather', serif;
-  font-weight: bold;
+  font-weight: 900;
   text-transform: uppercase;
 }
 
 .nav {
   font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
   font-size: 2.5em;
 }
 

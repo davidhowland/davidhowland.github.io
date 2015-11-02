@@ -16,6 +16,14 @@ text-align: center;
   text-transform: uppercase;
 }
 
+.nav h1 {
+  font-size: 3em;
+}
+
+.nav {
+  margin-top: auto;
+}
+
 .post-content img {
   max-width: 100%;
 }

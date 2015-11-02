@@ -7,11 +7,11 @@ text-align: center;
 }
 
 .post-content p, .sidebar-content a {
-  font-family: 'Gentium Basic', serif;
+  font-family: 'Merriweather', serif;
 }
 
 .post-content h2, .nav, .sidebar-content h3 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Merriweather', sans-serif;
   font-weight: 800;
   text-transform: uppercase;
 }

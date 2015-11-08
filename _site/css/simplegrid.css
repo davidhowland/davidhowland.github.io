@@ -12,7 +12,7 @@
 }
 
 body {
-	margin: 0;
+	margin: 10px;
 }
 
 [class*='col-'] {
@@ -183,7 +183,7 @@ body {
 	[class*='col-'] {
 		width: auto;
 		float: none;
-		margin: 10px 0;
+		margin: 20px 0;
 		padding-left: 0;
 		padding-right: 10px; /* column-space */
 	}

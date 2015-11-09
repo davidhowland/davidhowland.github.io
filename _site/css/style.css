@@ -41,7 +41,14 @@ ul {
 .sidebar-content ul {
   list-style-type: none;
 }
+.blog-grid {
+}
+
 
 .blog-grid img:hover {
   opacity: 0.8
+}
+
+.blog-grid-title {
+  margin: auto;
 }

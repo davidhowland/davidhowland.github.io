@@ -2,12 +2,15 @@
 
     <div class="grid">
       {% for post in site.posts limit: 4 %}
-      <div class="col-1-4">
-        <div class="content">
-          <a class="blog-grid" href="{{ post.url }}"><img src="{{ post.featured-image }}" class="blog-grid"></a>
+      <div class="col-1-4 blog-grid">
+        <div class="blog-grid-image">
+          <a href="{{ post.url }}"><img src="{{ post.featured-image }}"></a>
+        </div>
+        <div class="blog-grid-title">
+            <p>{{ post.title }}</p>
         </div>
       </div>
       {% endfor %}
     </div>
 
-{% include footer-widget.html %}
+{% include footer-simple.html %}

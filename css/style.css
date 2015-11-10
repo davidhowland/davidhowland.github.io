@@ -1,9 +1,15 @@
-.nav a {
-float: right;
+.logo h1 {
+  margin-top: 0px;
 }
 
-.footer-content h3 {
-text-align: center;
+.nav a,.logo a {
+text-decoration: none;
+}
+
+.logo, .nav {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 .post-content p, .sidebar-content a {
@@ -16,14 +22,8 @@ text-align: center;
   font-weight: 700;
 }
 
-.nav {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 700;
-  text-transform: uppercase;
-}
-
-.nav h1 {
-  margin-top: 0px;
+.footer-content h3 {
+text-align: center;
 }
 
 img {
@@ -42,8 +42,8 @@ ul {
   list-style-type: none;
 }
 .blog-grid {
+  /*display: flex;*/
 }
-
 
 .blog-grid img:hover {
   opacity: 0.8

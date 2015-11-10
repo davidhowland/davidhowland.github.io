@@ -6,6 +6,10 @@
 text-decoration: none;
 }
 
+.nav {
+  text-align: right;
+}
+
 .logo, .nav {
   font-family: 'Open Sans', sans-serif;
   font-weight: 700;

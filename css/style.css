@@ -42,8 +42,19 @@ ul {
   max-width: 100%;
 }
 
-.blog-grid img:hover {
-  opacity: 0.8
+.blog-grid-image {
+  width: 100%;
+}
+
+.blog-grid-title {
+  position: relative;
+  top: -5em;
+  text-align: center;
+}
+
+.blog-grid-image:hover, .blog-grid-title:hover {
+  opacity: 0.8;
+  display: block;
 }
 
 .blog-grid-title {

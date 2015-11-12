@@ -48,13 +48,27 @@ ul {
 
 .blog-grid-title {
   position: relative;
-  top: -5em;
+  top: -6em;
   text-align: center;
+  opacity: 0;
+  color: white;
 }
 
-.blog-grid-image:hover, .blog-grid-title:hover {
-  opacity: 0.8;
+/*span.blog-grid-title {
+  background: rgba(0,0,0,0.5);
+}*/
+
+span.blog-grid-title span a {
+  color: white;
+}
+
+.blog-grid-image:hover .blog-grid-title {
+  opacity: 1;
   display: block;
+}
+
+.blog-grid-image:hover {
+  opacity: 0.9;
 }
 
 .blog-grid-title {

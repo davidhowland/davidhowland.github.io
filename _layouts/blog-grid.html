@@ -1,16 +1,16 @@
 {% include header.html %}
-
-    <div class="grid">
+    <div class="row">
       {% for post in site.posts limit: 4 %}
-      <div class="col-1-4 blog-grid">
-        <div class="blog-grid-image">
-          <a href="{{ post.url }}"><img src="{{ post.featured-image }}"></a>
-        </div>
-        <div class="blog-grid-title">
+      <div class="four columns">
+        <div class="blog-grid">
+          <div class="blog-grid-image">
+            <a href="{{ post.url }}"><img src="{{ post.featured-image }}"></a>
+          </div>
+          <div class="blog-grid-title">
             <p>{{ post.title }}</p>
+          </div>
         </div>
       </div>
       {% endfor %}
     </div>
-
 {% include footer-simple.html %}

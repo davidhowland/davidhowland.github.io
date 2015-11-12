@@ -42,13 +42,6 @@ ul {
   max-width: 100%;
 }
 
-.sidebar-content ul {
-  list-style-type: none;
-}
-.blog-grid {
-  /*display: flex;*/
-}
-
 .blog-grid img:hover {
   opacity: 0.8
 }

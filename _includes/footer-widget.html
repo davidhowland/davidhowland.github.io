@@ -1,23 +1,25 @@
 <div class="footer-widget">
-  <div class="four columns">
-      <h3>Recent Posts</h3>
+  <div class="row">
+    <div class="four columns">
+        <h3>Recent Posts</h3>
+        <ul>
+          {% for post in site.posts limit: 5 %}
+          <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+          {% endfor %}
+        </ul>
+    </div>
+    <div class="four columns">
+      <h3>Support Frigid Light</h3>
+      <p>You can use the following affiliate links to support Frigid Light. I get a small percentage of the purchase price at no extra cost to you.</p>
       <ul>
-        {% for post in site.posts limit: 5 %}
-        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-        {% endfor %}
+        <li><a href="http://redirect.viglink.com?key=0ba42ff1fc480497bb5fbe0860550bfa&u=http%3A%2F%2Fwww.amazon.com">Amazon</a></li>
+        <li><a href="http://redirect.viglink.com?key=0ba42ff1fc480497bb5fbe0860550bfa&u=http%3A%2F%2Fwww.adorama.com%2F">Adorama</a></li>
+        <li><a href="http://redirect.viglink.com?key=0ba42ff1fc480497bb5fbe0860550bfa&u=http%3A%2F%2Fwww.bhphoto.com%2F">B&H Photo</a></li>
       </ul>
-  </div>
-  <div class="four columns">
-    <h3>Support Frigid Light</h3>
-    <p>You can use the following affiliate links to support Frigid Light. I get a small percentage of the purchase price at no extra cost to you.</p>
-    <ul>
-      <li><a href="http://redirect.viglink.com?key=0ba42ff1fc480497bb5fbe0860550bfa&u=http%3A%2F%2Fwww.amazon.com">Amazon</a></li>
-      <li><a href="http://redirect.viglink.com?key=0ba42ff1fc480497bb5fbe0860550bfa&u=http%3A%2F%2Fwww.adorama.com%2F">Adorama</a></li>
-      <li><a href="http://redirect.viglink.com?key=0ba42ff1fc480497bb5fbe0860550bfa&u=http%3A%2F%2Fwww.bhphoto.com%2F">B&H Photo</a></li>
-    </ul>
-  </div>
-  <div class="four columns">
-    <h3>Footer Column 3</h3>
+    </div>
+    <div class="four columns">
+      <h3>Footer Column 3</h3>
+    </div>
   </div>
 </div>
 <!-- .container closing tag -->

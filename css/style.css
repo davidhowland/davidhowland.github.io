@@ -48,15 +48,11 @@ ul {
 
 .blog-grid-title {
   position: relative;
-  top: -6em;
+  top: -8.5em;
   text-align: center;
   opacity: 0;
   color: white;
 }
-
-/*span.blog-grid-title {
-  background: rgba(0,0,0,0.5);
-}*/
 
 span.blog-grid-title span a {
   color: white;

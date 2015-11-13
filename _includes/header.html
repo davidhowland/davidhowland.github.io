@@ -8,7 +8,6 @@
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="/css/skeleton.css" />
     <link rel="stylesheet" type="text/css" href="/css/style.css" />
-    <link rel="stylesheet" type="text/css" href="/css/lightbox.css">
 
     <!-- Font -->
     <link href='//fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>
@@ -16,8 +15,12 @@
     <!-- Google CDN Hosted jQuery -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
 
+    <script>
+      lightbox.option({
+        'maxWidth': 1140
+      })
+    </script>
     <!-- JavaScript -->
-    <script src="/js/lightbox.js"></script>
 
     <!-- Flexslider -->
     {% if page.slider %}

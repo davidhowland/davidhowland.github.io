@@ -13,3 +13,4 @@ I tried to shoot from [this spot a few years ago](https://instagram.com/p/j-iwJs
 
 <a href="/img/20151022-manhattan-bridge-sunset.jpg" data-featherlight=""><img src="/img/20151022-manhattan-bridge-sunset-thumb.jpg"></a>
 <a href="/img/20151022-blue-hour-sunset-over-manhattan.jpg" data-featherlight=""><img src="/img/20151022-blue-hour-sunset-over-manhattan-thumb.jpg"></a>
+<a href="/img/20151022-night-sunset-over-manhattan.jpg" data-featherlight=""><img src="/img/20151022-night-sunset-over-manhattan-thumb.jpg"></a>

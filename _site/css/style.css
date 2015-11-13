@@ -62,3 +62,17 @@ span.blog-grid-title span a {
 .blog-grid-title {
   margin: auto;
 }
+
+.post-content img{
+  max-width: 100px;
+  float: left;
+  margin-right: 5px;
+}
+
+.featherlight-content {
+  max-width: 1140px;
+}
+
+iframe {
+  max-width: 100%;
+}

@@ -42,17 +42,27 @@ img {
   position: relative;
   top: -8.5em;
   text-align: center;
-  opacity: 0;
+  opacity: 1;
   color: white;
+  display: block;
+}
+
+@media (min-width: 550px) {
+  .blog-grid-title {
+    position: relative;
+    top: -8.5em;
+    text-align: center;
+    opacity: 0;
+    color: white;
+  }
+  .blog-grid-image:hover .blog-grid-title {
+    opacity: 1;
+    display: block;
+  }
 }
 
 span.blog-grid-title span a {
   color: white;
-}
-
-.blog-grid-image:hover .blog-grid-title {
-  opacity: 1;
-  display: block;
 }
 
 .blog-grid-image:hover {

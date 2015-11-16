@@ -9,6 +9,8 @@ Every fall I head up to New York to meet some [NSOP](http://newschoolofphotograp
 
 This year, I headed up to New York on Thursday to work for two days before the expo. This also gave me a couple of extra days for photography and I knocked off one of my major bucket list locations: the Manhattan Bridge.
 
-<a href="/img/manhattan-bridge-sunset.jpg" data-lightbox="manhattan-bridge-sunset" data-title="Sunset from the pedestrian walkway of the Manhattan Bridge"><img src="/img/thumbs/manhattan-bridge-sunset-thumb.jpg"></a>
-
 I tried to shoot from [this spot a few years ago](https://instagram.com/p/j-iwJsIfvZ/?taken-by=frigidlight) but was blocked out by the high fencing that runs along the entire bridge deck. Some time between now and then, someone has cut a huge hole through the fencing and I was able to shoot from a couple different angles as the sun was setting behind downtown Manhattan.
+
+<a href="/img/20151022-manhattan-bridge-sunset.jpg" data-featherlight=""><img src="/img/20151022-manhattan-bridge-sunset-thumb.jpg"></a>
+<a href="/img/20151022-blue-hour-sunset-over-manhattan.jpg" data-featherlight=""><img src="/img/20151022-blue-hour-sunset-over-manhattan-thumb.jpg"></a>
+<a href="/img/20151022-night-sunset-over-manhattan.jpg" data-featherlight=""><img src="/img/20151022-night-sunset-over-manhattan-thumb.jpg"></a>

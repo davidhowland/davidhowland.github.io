@@ -1,7 +1,16 @@
 {% include header.html %}
 
+{% if page.featured-image %}
+  <div class="row">
+    <div class="twelve columns featured-image">
+      <img src="{{ page.featured-image }}">
+    </div>
+  </div>
+{% endif %}
+
     <div class="row">
       <div class="twelve columns">
+        <h3>{{ page.title }}</h3>
           {{ content }}
       </div>
     </div>

@@ -90,3 +90,7 @@ iframe {
 .featured-image {
   margin-bottom: 10px;
 }
+
+.no-bullet {
+  list-style-type: none;
+}

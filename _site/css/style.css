@@ -86,3 +86,11 @@ span.blog-grid-title span a {
 iframe {
   max-width: 100%;
 }
+
+.featured-image {
+  margin-bottom: 10px;
+}
+
+.no-bullet {
+  list-style-type: none;
+}

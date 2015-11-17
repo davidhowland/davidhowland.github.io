@@ -4,7 +4,7 @@ description: "Adventure Photography by David Howland"
 url: davidhowland.github.io
 logo: /assets/web_logo_folio.png
 
-paginate: 10
+# paginate: 10
 
 markdown: rdiscount
 permalink: date

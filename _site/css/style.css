@@ -58,7 +58,7 @@ img {
   display: block;
 }
 
-@media (min-width: 550px) {
+@media (min-width: 750px) {
   .blog-grid-title {
     position: relative;
     top: -8.5em;

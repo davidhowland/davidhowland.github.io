@@ -1,6 +1,8 @@
 ---
 title: Sunset at Indian Mounds Park
 layout: post
+categories:
+- blog
 featured-image: /img/20150618-st-paul-indian-mounds-park.jpg
 map-url: https://a.tiles.mapbox.com/v4/frigidlight.o6jlf3h3/attribution,zoompan.html?access_token=pk.eyJ1IjoiZnJpZ2lkbGlnaHQiLCJhIjoiczg4X2VuYyJ9.yMtOhBeGB6hsQ5PogQT-_A#12/44.951/-93.07
 ---

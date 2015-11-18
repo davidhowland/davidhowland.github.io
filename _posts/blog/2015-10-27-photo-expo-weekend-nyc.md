@@ -17,6 +17,6 @@ I tried to shoot from [this spot a few years ago](https://instagram.com/p/j-iwJs
 <a href="/img/20151022-blue-hour-sunset-over-manhattan.jpg" data-featherlight=""><img src="/img/20151022-blue-hour-sunset-over-manhattan-thumb.jpg"></a>
 <a href="/img/20151022-night-sunset-over-manhattan.jpg" data-featherlight=""><img src="/img/20151022-night-sunset-over-manhattan-thumb.jpg"></a>
 
-After the expo, we walked down the Highline to the World Trade Center and took PATH over to Jersey City to photograph blue hour at Lefrak Lighthouse. This was another re-visit for me. Last year, the morning of the expo was extremely cloudy and rainy and there was no sunrise. We were more fortunate this year and got to shoot a pretty unique location.
+After the expo, we walked down the Highline to the World Trade Center and took PATH over to Jersey City to photograph blue hour at Lefrak Lighthouse. This was another re-visit for me. <a href="https://www.instagram.com/p/u36-BkofrZ/">Last year</a>, the morning of the expo was extremely cloudy and rainy and there was no sunrise. We were more fortunate this year and got to shoot a pretty unique location.
 
 <a href="/img/20151024-lefrak-lighthouse-blue-hour.jpg" data-featherlight=""><img src="/img/20151024-lefrak-lighthouse-blue-hour-thumb.jpg"></a>

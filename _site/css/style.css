@@ -75,7 +75,7 @@ span.blog-grid-title span a {
 
 .post-content img{
   max-width: 149px;
-  float: left;
+  /*float: left;*/
   margin-right: 5px;
 }
 

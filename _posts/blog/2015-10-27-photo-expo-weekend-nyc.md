@@ -1,9 +1,9 @@
 ---
-title: Sunset from the Manhattan Bridge
+title: PhotoPlusExpo Weekend in NYC
 layout: post
 categories:
 - blog
-map-url: https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d11808.254975110189!2d-73.9867630604104!3d40.70575209474232!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1zNDDCsDQyJzI1LjYiTiA3M8KwNTknMjcuOCJX!5e0!3m2!1sen!2sus!4v1446343507154
+map-url: https://mapsengine.google.com/map/u/0/embed?mid=zIcU4OgQmYYI.kyDpueWB5HR8
 featured-image: /img/20151022-blue-hour-sunset-over-manhattan.jpg
 ---
 
@@ -16,3 +16,7 @@ I tried to shoot from [this spot a few years ago](https://instagram.com/p/j-iwJs
 <a href="/img/20151022-manhattan-bridge-sunset.jpg" data-featherlight=""><img src="/img/20151022-manhattan-bridge-sunset-thumb.jpg"></a>
 <a href="/img/20151022-blue-hour-sunset-over-manhattan.jpg" data-featherlight=""><img src="/img/20151022-blue-hour-sunset-over-manhattan-thumb.jpg"></a>
 <a href="/img/20151022-night-sunset-over-manhattan.jpg" data-featherlight=""><img src="/img/20151022-night-sunset-over-manhattan-thumb.jpg"></a>
+
+After the expo, we walked down the Highline to the World Trade Center and took PATH over to Jersey City to photograph blue hour at Lefrak Lighthouse. This was another re-visit for me. Last year, the morning of the expo was extremely cloudy and rainy and there was no sunrise. We were more fortunate this year and got to shoot a pretty unique location.
+
+<a href="/img/20151024-lefrak-lighthouse-blue-hour.jpg" data-featherlight=""><img src="/img/20151024-lefrak-lighthouse-blue-hour-thumb.jpg"></a>

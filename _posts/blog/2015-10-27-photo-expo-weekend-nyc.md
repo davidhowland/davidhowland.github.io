@@ -3,7 +3,7 @@ title: PhotoPlusExpo Weekend in NYC
 layout: post
 categories:
 - blog
-map-url: https://mapsengine.google.com/map/u/0/embed?mid=zIcU4OgQmYYI.kyDpueWB5HR8
+map-url: https://a.tiles.mapbox.com/v4/frigidlight.o6jdjdfd/attribution,zoompan.html?access_token=pk.eyJ1IjoiZnJpZ2lkbGlnaHQiLCJhIjoiczg4X2VuYyJ9.yMtOhBeGB6hsQ5PogQT-_A#12/40.718/-74.019
 featured-image: /img/20151022-blue-hour-sunset-over-manhattan.jpg
 ---
 

@@ -55,8 +55,8 @@
   .column,
   .columns {
     margin-left: 4%; }
-  .column:first-child,
-  .columns:first-child {
+  .column:nth-child(3n+1),
+  .columns:nth-child(3n+1) {
     margin-left: 0; }
 
   .one.column,

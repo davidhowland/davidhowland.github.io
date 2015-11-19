@@ -10,5 +10,5 @@ I spent a week of my summer in Minnesota staying in St. Paul. I've been to Minne
 
 One of my goals was to take a timelapse with a train moving through the shot and I missed that by a few minutes. This was still an awesome location though - cars were streaming along the riverfront road all night.
 
-<iframe src="https://player.vimeo.com/video/146074605" width="745" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/146074605" width="745" height="425" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 <p><a href="https://vimeo.com/146074605">2015-6-18_Indian_Mounds</a> from <a href="https://vimeo.com/frigidlight">Frigid Light Photography</a> on <a href="https://vimeo.com">Vimeo</a>.</p>

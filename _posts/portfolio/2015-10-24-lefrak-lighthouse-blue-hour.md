@@ -8,4 +8,4 @@ map-url: https://a.tiles.mapbox.com/v4/frigidlight.o6jf8616/attribution,zoompan,
 ---
 Lefrak Lighthouse is located just across the Hudson River from downtown New York City. The new Freedom Tower stands just behind the lighthouse.
 
-I took this shot on the weekend of the PhotoPlusExpo. It took some careful positioning to keep some fencing and trees out of the frame.
+I took this shot on the weekend of the PhotoPlusExpo. It took some careful positioning to keep some fencing and trees out of the frame. It's definitely a unique location, though, and well worth the trip. There aren't many lighthouses this close to a major East Coast skyline, and the only other one near New York is up by the George Washington Bridge.

@@ -84,7 +84,7 @@ span.blog-grid-title span a {
   margin: auto;
 }
 
-.post-content img{
+.blog-thumb img{
   max-width: 149px;
   /*float: left;*/
   margin-right: 5px;

@@ -1,0 +1,22 @@
+{% include header.html %}
+
+{% if page.featured-image %}
+  <div class="row">
+    <div class="twelve columns featured-image">
+      <img src="{{ page.featured-image }}">
+    </div>
+  </div>
+{% endif %}
+
+<div class="row">
+  <div class="eight columns">
+    <div class="post-content">
+      <h3>{{ page.title }}</h3>
+      {{ content }}
+    </div>
+  </div>
+
+{% include sidebar-portfolio.html %}
+
+</div>
+{% include footer-simple.html %}

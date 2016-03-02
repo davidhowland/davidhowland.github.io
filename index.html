@@ -16,19 +16,22 @@
 
 <div id='map'></div>
 
+<link rel="stylesheet" href="http://libs.cartocdn.com/cartodb.js/v3/3.15/themes/css/cartodb.css" />
+...
+<div id="map"></div>
+...
+<script src="http://libs.cartocdn.com/cartodb.js/v3/3.15/cartodb.js"></script>
 <script>
-L.mapbox.accessToken = 'pk.eyJ1IjoiZnJpZ2lkbGlnaHQiLCJhIjoiczg4X2VuYyJ9.yMtOhBeGB6hsQ5PogQT-_A';
-var map = L.mapbox.map('map', 'mapbox.streets')
-    .setView([38, -95], 4);
+// get the viz.json url from the CartoDB Editor
+// - click on visualize
+// - create new visualization
+// - make visualization public
+// - click on publish
+// - go to API tab
 
-// Omnivore will AJAX-request this file behind the scenes and parse it:
-// note that there are considerations:
-// - The CSV file must contain latitude and longitude values, in column
-//   named roughly latitude and longitude
-// - The file must either be on the same domain as the page that requests it,
-//   or both the server it is requested from and the user's browser must
-//   support CORS.
-omnivore.csv('/data/reporter-lat-lng-2015.csv').addTo(map);
+window.onload = function() {
+  cartodb.createVis('map', 'https://overturn.cartodb.com/api/v2/viz/8139b8a6-e005-11e5-a924-0e5db1731f59/viz.json');
+}
 </script>
 </body>
 </html>

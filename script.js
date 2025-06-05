@@ -40,19 +40,6 @@ document.addEventListener('DOMContentLoaded', function() {
         const originalText = submitButton.textContent;
         submitButton.disabled = true;
         submitButton.textContent = 'Sending...';
-        
-        // Simulate form submission (replace with actual endpoint)
-        setTimeout(() => {
-            console.log('Form submitted:', data);
-            showMessage('Thank you for your message. I\'ll get back to you soon!', 'success');
-            
-            // Reset form
-            contactForm.reset();
-            
-            // Re-enable submit button
-            submitButton.disabled = false;
-            submitButton.textContent = originalText;
-        }, 1000);
     });
     
     // Add intersection observer for animations

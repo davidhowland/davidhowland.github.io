@@ -1,37 +1,217 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta charset=utf-8 />
-<title>Reporter Data Display</title>
-<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
-<script src='https://api.mapbox.com/mapbox.js/v2.3.0/mapbox.js'></script>
-<link href='https://api.mapbox.com/mapbox.js/v2.3.0/mapbox.css' rel='stylesheet' />
-<style>
-  body { margin:0; padding:0; }
-  #map { position:absolute; top:0; bottom:0; width:100%; }
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Smith - Full-Stack Developer</title>
+    <meta name="description" content="Portfolio of John Smith, Full-stack developer passionate about creating beautiful, functional web experiences">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.2.0/leaflet-omnivore.min.js'></script>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">John Smith</h1>
+            <p class="hero-description">
+                Full-stack developer passionate about creating beautiful, 
+                functional web experiences that make a difference.
+            </p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">View My Work</a>
+                <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+            </div>
+        </div>
+    </section>
 
-<div id='map'></div>
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Featured Projects</h2>
+                <p>Here are some of the projects I've been working on recently. 
+                   Each one represents a unique challenge and learning experience.</p>
+            </div>
+            
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop" alt="E-Commerce Platform">
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3>E-Commerce Platform</h3>
+                            <a href="https://example.com/ecommerce" target="_blank" rel="noopener noreferrer" class="project-link">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                    <polyline points="15,3 21,3 21,9"></polyline>
+                                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                                </svg>
+                            </a>
+                        </div>
+                        <p>A full-featured online store with payment integration, inventory management, and real-time analytics dashboard.</p>
+                        <div class="tech-tags">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">MongoDB</span>
+                            <span class="tech-tag">Stripe</span>
+                        </div>
+                    </div>
+                </div>
 
-<link rel="stylesheet" href="http://libs.cartocdn.com/cartodb.js/v3/3.15/themes/css/cartodb.css" />
-...
-<div id="map"></div>
-...
-<script src="http://libs.cartocdn.com/cartodb.js/v3/3.15/cartodb.js"></script>
-<script>
-// get the viz.json url from the CartoDB Editor
-// - click on visualize
-// - create new visualization
-// - make visualization public
-// - click on publish
-// - go to API tab
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&h=600&fit=crop" alt="Task Management App">
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3>Task Management App</h3>
+                            <a href="https://example.com/taskmanager" target="_blank" rel="noopener noreferrer" class="project-link">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                    <polyline points="15,3 21,3 21,9"></polyline>
+                                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                                </svg>
+                            </a>
+                        </div>
+                        <p>Collaborative project management tool with real-time updates, team chat, and advanced filtering capabilities.</p>
+                        <div class="tech-tags">
+                            <span class="tech-tag">TypeScript</span>
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Firebase</span>
+                            <span class="tech-tag">Tailwind</span>
+                        </div>
+                    </div>
+                </div>
 
-window.onload = function() {
-  cartodb.createVis('map', 'https://overturn.cartodb.com/api/v2/viz/8139b8a6-e005-11e5-a924-0e5db1731f59/viz.json');
-}
-</script>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=800&h=600&fit=crop" alt="Weather Dashboard">
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3>Weather Dashboard</h3>
+                            <a href="https://example.com/weather" target="_blank" rel="noopener noreferrer" class="project-link">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                    <polyline points="15,3 21,3 21,9"></polyline>
+                                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                                </svg>
+                            </a>
+                        </div>
+                        <p>Beautiful weather application with location-based forecasts, interactive maps, and severe weather alerts.</p>
+                        <div class="tech-tags">
+                            <span class="tech-tag">Vue.js</span>
+                            <span class="tech-tag">API Integration</span>
+                            <span class="tech-tag">Chart.js</span>
+                            <span class="tech-tag">PWA</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&h=600&fit=crop" alt="Portfolio Website">
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3>Portfolio Website</h3>
+                            <a href="https://example.com/portfolio" target="_blank" rel="noopener noreferrer" class="project-link">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                    <polyline points="15,3 21,3 21,9"></polyline>
+                                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                                </svg>
+                            </a>
+                        </div>
+                        <p>Responsive portfolio site with smooth animations, dark mode toggle, and optimized performance.</p>
+                        <div class="tech-tags">
+                            <span class="tech-tag">Next.js</span>
+                            <span class="tech-tag">Framer Motion</span>
+                            <span class="tech-tag">Tailwind</span>
+                            <span class="tech-tag">Vercel</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=800&h=600&fit=crop" alt="Social Media Analytics">
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3>Social Media Analytics</h3>
+                            <a href="https://example.com/analytics" target="_blank" rel="noopener noreferrer" class="project-link">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                    <polyline points="15,3 21,3 21,9"></polyline>
+                                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                                </svg>
+                            </a>
+                        </div>
+                        <p>Comprehensive analytics platform for social media managers with automated reporting and insights.</p>
+                        <div class="tech-tags">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">PostgreSQL</span>
+                            <span class="tech-tag">Redis</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="section-header">
+                <div class="contact-icon">
+                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                        <polyline points="22,6 12,13 2,6"></polyline>
+                    </svg>
+                </div>
+                <h2>Let's Work Together</h2>
+                <p>Have a project in mind? I'd love to hear about it. 
+                   Send me a message and let's start a conversation.</p>
+            </div>
+
+            <div class="contact-form-container">
+                <form class="contact-form" id="contactForm">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" name="name" placeholder="John Doe" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" placeholder="john@example.com" required>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" placeholder="Project Collaboration">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Message *</label>
+                        <textarea id="message" name="message" placeholder="Tell me about your project or just say hello..." rows="6" required></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 John Smith. Built with love using HTML, CSS, and JavaScript.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
